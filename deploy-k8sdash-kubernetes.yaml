@@ -83,7 +83,7 @@ spec:
         "kubernetes.io/os": linux
       containers:
       - name: k8s-dash-api
-        image: k8sdash/k8s-dashboard-api:v0.5.6
+        image: k8sdash/k8s-dashboard-api:v0.6.0
         resources:
           requests:
             cpu: 250m
